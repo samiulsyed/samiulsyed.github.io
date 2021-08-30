@@ -1,10 +1,11 @@
 body {
   margin: 0;
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 
+/* navigation bar  */
 header {
   background-color: rgba(15, 18, 42, 0.85);
   text-align: center;
@@ -12,6 +13,8 @@ header {
   z-index: 999;
   width: 100%;
   box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.8);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .logo {
@@ -131,6 +134,7 @@ nav a:hover {
     opacity: 1;
   }
 }
+/* hero container  */
 
 .heroContainer {
   background: url(./assets/herobg.jpg),
@@ -143,6 +147,7 @@ nav a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.8);
 }
 
 .cvbtn {
@@ -166,4 +171,185 @@ nav a:hover {
   background: rgba(15, 18, 42, 0.85);
   padding: 25px;
   border-radius: 15px;
+}
+
+/* breadcrumbs */
+
+.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+.breadcrumb li {
+  display: inline;
+  font-size: 12px;
+}
+
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: white;
+  content: "/\00a0";
+}
+/* Experienced logos  */
+.imagecard {
+  background: black;
+}
+
+.langframeworks {
+  padding-top: 1.6rem;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.logoContainer {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+@media screen and (max-width: 728px) {
+  .logoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-items: center;
+  }
+}
+.langframeworks h1 {
+  color: rgba(15, 18, 42, 0.85);
+}
+.logoContainer img {
+  height: 100px;
+  width: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  transition-property: all;
+  transition-duration: 500ms;
+}
+
+@media screen and (max-width: 728px) {
+  .logoContainer img {
+    height: auto;
+    width: 100px;
+    padding: 10px;
+  }
+}
+
+.logoContainer img:hover {
+  filter: drop-shadow(0 0 0.2rem rgb(65, 63, 63));
+}
+
+/* Project Cards with links to live projects  */
+
+.projectsection {
+  padding-top: 2rem;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.projectcards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  text-align: center;
+}
+@media screen and (max-width: 728px) {
+  .projectcards {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    text-align: center;
+  }
+}
+
+.projectcards img {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projectbtn {
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 800;
+  color: white;
+  cursor: pointer;
+  background: #272f6b;
+}
+
+.projectbtn:hover {
+  box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.8);
+  transition: ease-in-out 100ms;
+  background: #d685c0;
+  color: white;
+}
+
+.projectcards h3 {
+  text-align: center;
+}
+
+.projectcards p {
+}
+
+/* about card */
+
+.aboutcard {
+  padding-top: 2rem;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.aboutcarbackground {
+  background: url(./assets/bg2.jpg);
+  height: 384px;
+  min-width: 384px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+.aboutcontent {
+  position: relative;
+  top: 6rem;
+  left: 4rem;
+  background-color: rgba(255, 254, 254, 0.432);
+  width: 380px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.aboutcontent h2 {
+  color: white;
+}
+
+.aboutcontent p {
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(15, 18, 42, 0.85);
+  width: 100%;
+  margin-top: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+/* About Page  */
+
+.aboutintro {
+  padding-top: 2rem;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
