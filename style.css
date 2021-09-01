@@ -13,12 +13,12 @@ header {
   z-index: 999;
   width: 100%;
   box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.8);
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .logo {
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 800;
   padding: 10px;
   display: block;
@@ -56,7 +56,7 @@ nav a {
   color: #ffffff;
   text-align: center;
   align-items: center;
-  font-size: 10px;
+  font-size: 20px;
   opacity: 0;
   text-decoration: none;
   transition: opacity 100ms ease-in-out;
@@ -173,6 +173,24 @@ nav a:hover {
   border-radius: 15px;
 }
 
+.introbio {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+
+  transition: all;
+  transition-duration: 400ms;
+  border-radius: 15px;
+}
+
+.introbio:hover {
+  box-shadow: 0 2px 5px -2px rgba(0, 0, 0, 0.8);
+}
+.introbio {
+  line-height: 2;
+}
 /* breadcrumbs */
 
 .breadcrumb {
@@ -391,6 +409,15 @@ footer {
 .employmentitem1 li {
   list-style: none;
   font-size: 20px;
+}
+
+.profileimg {
+  transition: all;
+  transition-duration: 500ms;
+}
+
+.profileimg:hover {
+  filter: drop-shadow(0 0 0.2rem rgb(65, 63, 63));
 }
 
 /* about card 2  */
