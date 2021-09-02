@@ -358,15 +358,22 @@ footer {
   flex-direction: column;
 }
 
+.aboutintro h1 {
+  font-size: 30px;
+}
+
 .imgcontainer {
   width: 50px;
   padding: 15px;
   display: block;
 }
-
+.aboutitem1 h6 {
+  padding: none;
+  margin: 5px;
+}
 .aboutitem1 {
   border-top: #d685c0 1px solid;
-  padding-top: 10px;
+  padding: 5px;
   display: inline-block;
   font-size: 30px;
 }
