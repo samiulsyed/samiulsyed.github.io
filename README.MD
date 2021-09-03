@@ -53,7 +53,7 @@ reusing components from homepage
 ## Sitemap
 
 ![sitemap]
-(https://github.com/samiulsyed/samiulsyed.github.io/blob/main/Docs/Sitemap.png)
+(docs/Sitemap.png)
 
 ---
 
