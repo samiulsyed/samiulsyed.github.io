@@ -193,6 +193,11 @@ nav a:hover {
 .introbio {
   line-height: 2;
 }
+
+.socialicons {
+  padding-top: 30px;
+}
+
 /* breadcrumbs */
 
 .breadcrumb {
