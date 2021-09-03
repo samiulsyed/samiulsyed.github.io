@@ -374,7 +374,7 @@ footer {
   display: block;
 }
 .aboutitem1 h6 {
-  padding: none;
+  padding: 0px;
   margin: 5px;
 }
 .aboutitem1 {
