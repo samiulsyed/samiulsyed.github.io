@@ -52,8 +52,7 @@ reusing components from homepage
 
 ## Sitemap
 
-![sitemap]
-(docs/Sitemap.png)
+![sitemap](docs/Sitemap.png)
 
 ---
 
@@ -74,14 +73,20 @@ The site will consist of 4 main pages
 ---
 
 Home Page Screen Shot
+![Home](docs/homepage.png)
+![Home](docs/homepage1.png)
 
 About Page Screen Shot
-
+![About](docs/about1.png)
+![About](docs/about2.png)
+![About](docs/about3.png)
 Contact Page Screen Shot
-
+![Contact](docs/contact1.png)
+![Contact](docs/contact2.png)
 Blog Page Screen Shot
 
 Single Blog Page Screen Shot
+![Contact](docs/blog.png)
 
 ## Target Audience
 
